@@ -1,0 +1,14 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "test description ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:es5" : "tsc --target ES5 --outDir compiled --rootDir src",
+    "build:nocomments" : "tsc --removeComments true --outDir compiled_nocomments --rootDir src",
+    "build:hw" : "tsc --target ES5 --removeComments true --outDir compiled_hw --rootDir src"
+  },
+  "author": "alinu@LAPTOP-7OL3NIP5",
+  "license": "ISC"
+}
